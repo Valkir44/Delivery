@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/click_alex.css">
+</head>
+
+<body>
+<header>
+    <div class="position_text header_page">
+        <div class="flex_container">
+            <a class="page_logo" href="#">Logo</a>
+            <a class="page_number" href="#">888 - 260 - 8850</a>
+        </div>
+        <div class="flex_container ">
+                <a class="page_menu" href="#"><img src="./img/header/magnifier.png" alt="magnifier">Search</a>
+                <a class="page_menu" href="#"><img src="./img/header/grocery_trolley.png" alt="grocery_trolley">Basket</a>
+                <div class="my_profile">
+                    <ul>
+                        <li><a href="#">My profile</a>
+                            <ul class="sum_menu_top">
+                                <li><a href="#">My profile</a></li>
+                                <li><a href="#">Restautant menu</a></li>
+                                <li><a href="#">Order history</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main></main>
+<footer>
+  <div class="data_menu">
+      <div class="footer_container">
+          <div class="flex_container flex_change">
+              <ul>
+                  <li class="li_distance"><a href="#">About Us</a></li>
+                  <li class="li_distance"><a href="#">Privacy Policy</a></li>
+                  <li class="li_distance"><a href="#">Terams and conditions</a></li>
+                  <li class="li_distance"><a href="#">Contact</a></li>
+              </ul>
+              <ul>
+                  <li class="li_distance"><a href="#">Asian & Sushi</a></li>
+                  <li class="li_distance"><a href="#">Authentic</a></li>
+                  <li class="li_distance"><a href="#">Grill</a></li>
+                  <li class="li_distance"><a href="#">Pizza</a></li>
+              </ul>
+              <ul>
+                  <li class="li_distance"><a href="#">Healthay choice</a></li>
+                  <li class="li_distance"><a href="#">Bakery</a></li>
+                  <li class="li_distance"><a href="#">Seafood</a></li>
+                  <li class="li_distance"><a href="#">Kosher</a></li>
+              </ul>
+              <ul>
+                  <li class="li_distance"><a href="#">French</a></li>
+                  <li class="li_distance"><a href="#">Beverages</a></li>
+                  <li class="li_distance"><a href="#">Products</a></li>
+                  <li class="li_distance"><a href="#">Personal chief</a></li>
+              </ul>
+              <ul>
+                  <li class="li_distance"><a href="#">All categories</a></li>
+                  <li class="li_distance"><a href="#">All restaurants</a></li>
+              </ul>
+              <ul>
+                  <li class="li_distance"><img src="./img/footer/phone_icon.png" alt="phone_icon">888 - 260 - 8850</li>
+                  <li class="li_distance"><a href="#"><img src="./img/footer/email_icon.png" alt="">email@email.com</a></li>
+                  <li class="li_distance">© fooddeliveru, 2017</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+<script src="./slider/jq-1.12.4.js"></script>
+<script src="./slider/slick.min.js"></script>
+<script>
+
+    $('.slider_2').slick({
+        dots: false,
+        slidesToShow: 6,
+        arrows: true,
+        prevArrow: '<div class="left-arrow"><img src="./img/header/left_arrow.png"><p>prev</p></div>',
+        nextArrow: '<div class="right-arrow"><img src="./img/header/right_arrow.png"><p>next</p></div>',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2
+                }
+            }
+
+        ]
+    });
+
+    $(document).ready(function () {
+        $('.slider').slick({
+            arrows: false,
+            dots: true,
+            adaptiveHeight: false,
+
+        });
+
+
+        $(".toggle_menu").click(function (e) {
+            e.preventDefault();
+            $(".media_ul").toggleClass('active');
+        })
+
+
+    });
+
+
+</script>
+</body>

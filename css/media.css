@@ -1,0 +1,147 @@
+@media all and (max-width: 1345px) {
+
+    header {
+        background-image: url("../img/header/photo_dish.jpg");
+    }
+
+    .my_slide {
+        display: none;
+    }
+
+    .position_text {
+        position: static;
+    }
+
+    .top_menu {
+        padding-top: 50px;
+        margin-top: 0;
+    }
+
+    .left-arrow {
+        left: 0;
+    }
+
+    .right-arrow {
+        right: 0;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .top .left, .top .right {
+        float: none;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .position_text, main {
+        padding: 0 10px;
+    }
+
+    .item_order {
+        width: 49%;
+        margin-bottom: 1%;
+    }
+
+    .restaurants {
+        width: 33%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media all and (max-width: 960px) {
+    .header_li {
+        padding-right: 0;
+        width: 13%;
+    }
+
+    .margin .border {
+        float: none;
+        width: 250px;
+        margin: 20px auto;
+    }
+
+    .text_we {
+        position: static;
+    }
+
+    .fones {
+        float: none;
+        text-align: center;
+    }
+
+    .order_container {
+        flex-direction: column-reverse;
+    }
+
+    .phone_img {
+        margin-bottom: 43px;
+    }
+
+    .telephone_order {
+        margin-right: 0;
+        padding-bottom: 15px;
+    }
+
+    .flex_change {
+        flex-wrap: wrap;
+    }
+
+    .footer_container ul {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .flex_change {
+        text-align: center;
+    }
+
+    .footer_container ul {
+        width: 100%;
+    }
+
+    .top_menu {
+        padding-top: 25px;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .title {
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+
+    .border_title:after, .border_title:before {
+        width: 100px;
+    }
+
+    .title p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .item_order, .restaurants {
+        width: 100%;
+    }
+
+    .padding_container {
+        flex-direction: column;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+
+}
+

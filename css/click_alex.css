@@ -1,0 +1,51 @@
+/*.slider {*/
+  /*text-align: center;*/
+  /*.slick-arrow {*/
+    /*position: absolute;*/
+    /*top: 90px;*/
+    /*//top: 50%;*/
+    /*//@include translate(0, -50%);*/
+  /*}*/
+  /*.slick-prev, .slick-next {*/
+    /*background: transparent;*/
+    /*width: 26px;*/
+    /*border: none;*/
+    /*font-size: 0.8571rem;*/
+    /*color: #bbc1c7;*/
+    /*height: 30px;*/
+    /*outline: none;*/
+    /*cursor: pointer;*/
+    /*&:before {*/
+      /*content: '';*/
+      /*display: block;*/
+      /*height: 14px;*/
+      /*width: 30px;*/
+      /*margin-bottom: 5px;*/
+    /*}*/
+  /*}*/
+  /*.slick-prev {*/
+    /*left: -50px;*/
+    /*&:before {*/
+      /*background: url("../img/slider/arrow.png") no-repeat;*/
+    /*}*/
+  /*}*/
+  /*.slick-next {*/
+    /*right: -50px;*/
+    /*&:before {*/
+      /*background: url("../img/slider/arrow-next.png") no-repeat;*/
+    /*}*/
+  /*}*/
+
+  /*.item-slider {*/
+    /*.img-container {*/
+      /*background-color: #fff;*/
+      /*border-radius: 100%;*/
+      /*max-width: 100px;*/
+      /*margin: auto;*/
+      /*padding-top: 30px;*/
+    /*}*/
+  /*}*/
+  /*.description-item {*/
+    /*font-weight: 500;*/
+  /*}*/
+/*}*/
